@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.tophead{
+
+    width: 100%;
+    height: 65px;
+    background: rgb(132, 4, 158);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    /* fixed navBar */
+    /* overflow: hidden;
+    position: fixed;
+    top: 0; */
+
+}
+.tophead .brandlogo{
+    margin: 40px;
+    font-weight: bolder;
+}
+.brandlogo{
+    color: rgb(253, 229, 11);
+    font-size: 2.1rem;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.menulines{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 40px;
+    color: white;
+}
+h1 {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+   
+    color: rgb(158, 4, 158);
+    font-weight: 900;
+    
+    }
+    .mainpart{
+        margin-top: 50px;
+        margin-left: 50px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+
+    .sidenav{
+        height: 100vh;
+        /* orh=100% */
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: darkslategray;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: all 0.8s;
+    }
+    .sidenav a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        padding: 30px 0 30px 30px;
+    
+    }
+    .sidenav a :hover{
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 45px!important;
+    }
+    @media (max-width: 768px){
+        .brandlogo{
+            font-size: 1.8rem;
+        }
+    
+    }
+   /* card 1 */
+
+.profile{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+/* card 2 */
+
+.profile2{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image2{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+
+
+/* card 3 */
+
+.profile3{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image3{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+/* card 4 */
+
+.profile4{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image4{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+/* card 5 */
+
+.profile5{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image5{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+/* card 6 */
+
+.profile6{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image6{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+
+/* card 7 */
+
+.profile7{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+    
+
+    
+}
+.profile_image7{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+
+/* card 8 */
+
+.profile8{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image8{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+
+/* card 9 */
+
+.profile9{
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+
+    
+}
+.profile_image9{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+
+section .profile:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile2:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile3:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile4:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile5:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile6:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile7:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile8:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+section .profile9:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background: rgb(201, 49, 87);
+    color: white;
+}
+
+
+body .sidenav {
+    cursor: pointer;
+}
+body .sidenav :hover{
+    color: red;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+body .sidenav .cart{
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    position: relative ;
+    left: 5px;
+}
+body .sidenav .cart button{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 15px;
+    margin: 0.1px;
+    background-color: orangered;
+    color: white;
+ }
+ section .mainpart .profile button{
+     background-color: royalblue;
+ }
+
+
+
+
+ 
